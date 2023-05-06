@@ -1,10 +1,10 @@
-# jsf-spring-boot
-JSF 2.3 + Spring Boot 2 sample application
+# jakartaFaces-spring-boot
+Jakarta Faces + Spring Boot
 
-## Instructions
-Build it with maven and run the war as if it was an standard jar:
+## Instrucciones
+Desde consola (cmd en windows), ingresa al directorio del proyecto y ejecuta el siguiente comando:
 
-`java -jar target/jsf-spring-boot-1.0.0.war`
+`mvn clean install && mvn spring-boot:run`
 
-It will launch a JSF and Spring powered website that you can access at http://localhost:8080/ui/hello.xhtml
+Una vez iniciado, ingresar a la URL: http://localhost:8080/ui/hello.xhtml
 
